@@ -1,6 +1,9 @@
 # 3D-Ray-Tracing-Engine
 A 3D ray tracing engine in pure Python for STL files.
 
+![Example of 3 spheres](https://github.com/AdaWat/3D-Ray-Tracing-Engine/blob/a95d99ce2aa37715e3cba55c952e12701bf38806/images/ray_tracing_8.png)
+![Example render of Utah teapot](https://github.com/AdaWat/3D-Ray-Tracing-Engine/blob/7ef09248dd10679b8f39653bea1a0dfd728fca97/images/utah%20teapot.png)
+
 ## Description
 This is a fun project I made at the end of year 11. It's not meant to be especially fast or high-tech, I just wanted it to render an STL with shadows and reflections 
 using ray tracing.
