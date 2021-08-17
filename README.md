@@ -1,4 +1,4 @@
-# 3D-Ray-Tracing-Engine
+# 3D Ray Tracing Engine in Python
 A 3D ray tracing engine in pure Python for STL files.
 
 ![Example of 3 spheres](https://github.com/AdaWat/3D-Ray-Tracing-Engine/blob/a95d99ce2aa37715e3cba55c952e12701bf38806/images/ray_tracing_8.png)
