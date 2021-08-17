@@ -70,8 +70,6 @@ def pixel_coords_generator():
     for z in range(height):
         for x in range(width):
             pix_coords = screen_TL + x_pixel_vector * x * (screen_width/width) + z_pixel_vector * z * (screen_height/height)
-            # pix_coords = np.add(np.add(screen_TL, np.multiply(np.multiply(x_pixel_vector, x), (screen_width/width))),
-            #                     np.multiply(np.multiply(z_pixel_vector, z), (screen_height/height)))
             # return both absolute position (coord in 3D space) and position relative to the screen of each pixel
             yield {"abs": pix_coords, "rel": [x, z]}
 
