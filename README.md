@@ -6,11 +6,11 @@ A 3D ray tracing engine in pure Python for STL files.
 
 ## Description
 This is a fun project I made at the end of year 11. It's not meant to be especially fast or high-tech, I just wanted it to render an STL with shadows and reflections 
-using ray tracing.
+using ray tracing. There are more efficiency improvements that I can make to it once I finish other projects - but it works fine for the moment.
 
-The code can render perfect spheres or any STL file. 
+The code can render perfect spheres or any STL file (the mesh doen't even need to be closed).
 
-The code uses matplotlib to display the final result and NumPy for vector maths.
+The code uses Matplotlib to display the final result and NumPy for vector maths.
 
 I used OOP and split the classes into different files to improve readability.
 
